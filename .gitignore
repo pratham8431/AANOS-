@@ -1,0 +1,50 @@
+# OS/Editor junk
+.DS_Store
+*.swp
+*.swo
+*.bak
+
+# Compiled object files
+*.o
+*.out
+*.obj
+*.elf
+*.bin
+*.map
+
+# Kernel build artifacts
+/build/
+/kernel/build/
+/kernel/*.img
+/packaging/*.iso
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+
+# C/C++ cache
+*.dep
+*.a
+*.so
+*.dSYM/
+
+# Test & logs
+*.log
+*.tmp
+*.pid
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Jupyter
+.ipynb_checkpoints
+
+# CI/CD
+ci/*.env
+ci/.cache/
