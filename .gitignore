@@ -17,6 +17,10 @@
 /kernel/build/
 /kernel/*.img
 /packaging/*.iso
+# Ignore all binaries in kernel/
+kernel/hello_kernel
+
+
 
 # Python
 __pycache__/
